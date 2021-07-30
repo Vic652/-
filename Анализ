@@ -1,10 +1,11 @@
 setup
 T 3
 L 1
-st 1
 end
+~~~~
 T = 1
 L 0
 T 3
 L 1
 end
+~~~~
