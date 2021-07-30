@@ -1,0 +1,12 @@
+setup
+Ts 20
+st 1
+end
+~~~~~
+~~~~~
+Ts = 0 && st = 1
+wst timenow
+st 0
+end
+~~~ 
+~~~
