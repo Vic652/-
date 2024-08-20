@@ -1,0 +1,24 @@
+#pl03.457.1
+ if onStart then
+ {r03 := getTime()
+ }
+if  T3 == 1 & r03 == "none" then
+  r03 := getTime()
+if T3 == 0 then
+ { i03 := "v,vb,Tb,Bi"
+   j03 := "вв: 31.10.23"
+ }
+if T3 == 1 then
+ { i03 := "upt: " + getUptime()
+   j03 := "r»" + r03
+ }
+if T3 == 2 then
+ {d03 := getDay()
+  m03 := getMonth()
+  i03 := gethhmmss() + "»" + d03 +"." + m03
+  j03 := "r12:" + rs12
+ }
+if T3 == 3 then
+ { i03 := "RSSI: " + getRSSI()
+   j03 := getIP()
+ }
